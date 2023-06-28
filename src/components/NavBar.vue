@@ -8,19 +8,19 @@
 
     <nav>
       <routerlink to="/" id="logo">My Logo</routerlink>
-      <input type="checkbox" id="hamburger" />
+      <!-- <input type="checkbox" id="hamburger" />
       <label for="hamburger">
         <i class="fa-solid fa-bars"></i>
-      </label>
+      </label> -->
       <ul>
         <li>
-          <routerlink to="/">Home</routerlink>
+          <router-link to="/">Home</router-link>
         </li>
         <li>
-            <routerlink to="/">About</routerlink>
+            <router-link to="/about">About</router-link>
         </li>
         <li>
-            <routerlink to="/">Products</routerlink>
+            <router-link to="/products">Products</router-link>
         </li>
         <li>
             <router-link to="/form">Contact Us</router-link>
@@ -42,7 +42,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   background-color: #d9d9d9;
-  padding: 1em;
+  padding: 20px;
 }
 nav a {
   text-decoration: none;
@@ -53,13 +53,13 @@ nav a {
   font-size: 1.2em;
   font-weight: 600;
 }
-input[type="checkbox"] {
+/* input[type="checkbox"] {
   appearance: none;
 }
 label {
   display: none;
   cursor: pointer;
-}
+} */
 ul {
   list-style: none;
   display: flex;
